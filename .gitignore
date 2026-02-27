@@ -1,0 +1,53 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+.env/
+.envrc/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# TensorFlow / Training
+# =========================
+logs/
+*.h5
+*.keras
+checkpoints/
+
+# =========================
+# Datos (opcional)
+# =========================
+# Descomentá si NO querés subir datasets grandes
+# data/
+# *.csv
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.bak
